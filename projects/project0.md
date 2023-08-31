@@ -195,8 +195,7 @@ Check the [Special macOS Instructions](#special-macos-instructions) to check if 
       - If `echo $SHELL` gives `/bin/zsh`, do `echo "export PATH=\"$HOME/.cargo/bin:$PATH\"" >> ~/.zshrc`
       - If `echo $SHELL` gives `/bin/bash`, do `echo "export PATH=\"$HOME/.cargo/bin:$PATH\"" >> ~/.bashrc`
 9. Install Racket
-    - Go to https://download.racket-lang.org/ and download your respective installer for Racket depending on your machine. (If you have a M1/M2 chip select Apple Silicon. If you have an Intel chip select Mac OS 64-bit)
-    - Run the installer
+    - Run `brew install --cask racket`, which installs the Racket app through Homebrew.
     - Racket comes with its own IDE: DrRacket. This is the recommended way to edit Racket files, but you also may use VS Code with Racket extension(s)
      
 ### Linux (NOT WSL)
